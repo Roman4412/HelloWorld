@@ -27,7 +27,7 @@ public class Main {
         System.out.println(friend);
         friend += 2;
         System.out.println(friend);
-        friend /=2;
+        friend = friend/2;
         System.out.println(friend);
     }
 }
