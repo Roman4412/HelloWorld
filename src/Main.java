@@ -7,5 +7,11 @@ public class Main {
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
+        dog += 4;
+        cat += 4 ;
+        paper +=4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
     }
 }
