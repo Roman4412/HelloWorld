@@ -45,5 +45,9 @@ public class Main {
         System.out.println("Общий вес двух бойцов " + weightGeneral + " кг!");
         var weightDifference = Math.abs(firstFighter-secondFighter);
         System.out.println("Разница в весе " + weightDifference + " кг!");
+        // 7
+        weightDifference = secondFighter - firstFighter;
+        weightDifference = secondFighter % firstFighter;
+
     }
 }
