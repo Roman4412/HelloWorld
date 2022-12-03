@@ -48,6 +48,14 @@ public class Main {
         // 7
         weightDifference = secondFighter - firstFighter;
         weightDifference = secondFighter % firstFighter;
+        // 8
+        var totalHours = 640;
+        var hoursForPerson = 8;
+        var totalPerson = totalHours / hoursForPerson;
+        System.out.println("Всего работников в компании - " + totalPerson + " человек");
 
+        totalPerson += 94;
+        totalHours = hoursForPerson * totalPerson;
+        System.out.println("Если в компании работает " + totalPerson + " человек, то всего " + totalHours + " часов работы может быть поделено между сотрудниками");
     }
 }
