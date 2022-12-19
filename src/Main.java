@@ -2,9 +2,18 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner console = new Scanner(System.in);
-        int apples = console.nextInt();
-        peelsApples(apples);
+        boolean x = true;
+        while (x==true) {
+            System.out.println("Сколько яблок нужно почистить?");
+            Scanner console = new Scanner(System.in);
+            if (console.hasNextInt()) {
+                int apples = console.nextInt();
+                peelsApples(apples);
+                x = false;
+            } else {
+                System.out.println("Требуется ввести целое число");
+            }
+        }
 
     }
     public static void peelsApples(int apples) {
